@@ -107,7 +107,7 @@ h3 {
 }
 
 .brand img {
-  width: 180px;
+  width: 360px;
   height: auto;
 }
 
@@ -967,7 +967,7 @@ summary:focus-visible,
 }
 
 .footer-brand img {
-  width: 150px;
+  width: 300px;
   height: auto;
 }
 
@@ -998,7 +998,7 @@ summary:focus-visible,
 }
 
 .policy-header img {
-  width: 180px;
+  width: 360px;
   height: auto;
 }
 
@@ -1066,7 +1066,7 @@ summary:focus-visible,
 }
 
 .policy-footer-brand img {
-  width: 150px;
+  width: 300px;
   height: auto;
 }
 
@@ -1081,12 +1081,85 @@ summary:focus-visible,
   }
 
   .brand img {
-    width: 150px;
+    width: 300px;
   }
 
   .main-nav {
     gap: 11px;
     font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 960px) {
+  .header-inner {
+    min-height: 100px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+    min-height: 33px;
+    align-items: center;
+    gap: 6px;
+    margin-left: auto;
+    padding: 5px 9px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--white);
+    color: var(--forest);
+    cursor: pointer;
+    font-size: 0.68rem;
+    font-weight: 700;
+  }
+
+  .menu-toggle-icon,
+  .menu-toggle-icon::before,
+  .menu-toggle-icon::after {
+    display: block;
+    width: 13px;
+    height: 1.5px;
+    border-radius: 2px;
+    background: currentColor;
+  }
+
+  .menu-toggle-icon {
+    position: relative;
+  }
+
+  .menu-toggle-icon::before,
+  .menu-toggle-icon::after {
+    position: absolute;
+    left: 0;
+    content: "";
+  }
+
+  .menu-toggle-icon::before {
+    top: -4px;
+  }
+
+  .menu-toggle-icon::after {
+    top: 4px;
+  }
+
+  .main-nav {
+    display: none;
+    order: 4;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 4px 0 12px;
+  }
+
+  .main-nav.is-open {
+    display: flex;
+  }
+
+  .main-nav a {
+    padding: 9px 1px;
+    border-top: 1px solid var(--line);
+    font-size: 0.8rem;
   }
 }
 
@@ -1101,7 +1174,7 @@ summary:focus-visible,
   }
 
   .brand img {
-    width: 120px;
+    width: 240px;
   }
 
   .main-nav {
@@ -1386,7 +1459,7 @@ summary:focus-visible,
   }
 
   .brand img {
-    width: 140px;
+    width: 280px;
   }
 
   .menu-toggle {
@@ -1756,7 +1829,7 @@ summary:focus-visible,
   }
 
   .footer-brand img {
-    width: 110px;
+    width: 220px;
   }
 
   .footer-links {
@@ -1773,7 +1846,7 @@ summary:focus-visible,
   }
 
   .policy-header img {
-    width: 140px;
+    width: 280px;
   }
 
   .policy-home-link {
@@ -1781,7 +1854,7 @@ summary:focus-visible,
   }
 
   .policy-footer-brand img {
-    width: 110px;
+    width: 220px;
   }
 
   .policy-content {
