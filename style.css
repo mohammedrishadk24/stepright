@@ -107,7 +107,7 @@ h3 {
 }
 
 .brand img {
-  width: 140px;
+  width: 180px;
   height: auto;
 }
 
@@ -967,7 +967,7 @@ summary:focus-visible,
 }
 
 .footer-brand img {
-  width: 112px;
+  width: 150px;
   height: auto;
 }
 
@@ -998,7 +998,8 @@ summary:focus-visible,
 }
 
 .policy-header img {
-  width: 140px;
+  width: 180px;
+  height: auto;
 }
 
 .policy-home-link {
@@ -1065,7 +1066,7 @@ summary:focus-visible,
 }
 
 .policy-footer-brand img {
-  width: 112px;
+  width: 150px;
   height: auto;
 }
 
@@ -1080,7 +1081,7 @@ summary:focus-visible,
   }
 
   .brand img {
-    width: 120px;
+    width: 150px;
   }
 
   .main-nav {
@@ -1100,7 +1101,7 @@ summary:focus-visible,
   }
 
   .brand img {
-    width: 96px;
+    width: 120px;
   }
 
   .main-nav {
@@ -1385,7 +1386,7 @@ summary:focus-visible,
   }
 
   .brand img {
-    width: 93px;
+    width: 140px;
   }
 
   .menu-toggle {
@@ -1755,7 +1756,7 @@ summary:focus-visible,
   }
 
   .footer-brand img {
-    width: 83px;
+    width: 110px;
   }
 
   .footer-links {
@@ -1772,11 +1773,15 @@ summary:focus-visible,
   }
 
   .policy-header img {
-    width: 110px;
+    width: 140px;
   }
 
   .policy-home-link {
     font-size: 0.71rem;
+  }
+
+  .policy-footer-brand img {
+    width: 110px;
   }
 
   .policy-content {
