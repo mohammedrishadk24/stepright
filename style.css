@@ -99,20 +99,24 @@ h3 {
   min-height: 70px;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  padding-block: 10px;
   gap: 24px;
 }
 
 .brand {
-  flex: 0 0 auto;
+  flex: 0 0 100%;
 }
 
 .brand img {
-  width: 360px;
+  width: 1800px;
+  max-width: 100%;
   height: auto;
 }
 
 .main-nav {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: clamp(14px, 2vw, 26px);
   color: #475b4d;
@@ -967,7 +971,8 @@ summary:focus-visible,
 }
 
 .footer-brand img {
-  width: 300px;
+  width: 1500px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -992,13 +997,20 @@ summary:focus-visible,
 .policy-header-inner {
   display: flex;
   min-height: 70px;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  padding-block: 10px;
   gap: 18px;
 }
 
+.policy-header-inner > a:first-child {
+  flex: 0 0 100%;
+}
+
 .policy-header img {
-  width: 360px;
+  width: 1800px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -1066,7 +1078,8 @@ summary:focus-visible,
 }
 
 .policy-footer-brand img {
-  width: 300px;
+  width: 1500px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -1081,7 +1094,7 @@ summary:focus-visible,
   }
 
   .brand img {
-    width: 300px;
+    width: 1500px;
   }
 
   .main-nav {
@@ -1169,12 +1182,12 @@ summary:focus-visible,
   }
 
   .header-inner {
-    min-height: 42px;
+    min-height: 100px;
     gap: 12px;
   }
 
   .brand img {
-    width: 240px;
+    width: 1200px;
   }
 
   .main-nav {
@@ -1459,7 +1472,7 @@ summary:focus-visible,
   }
 
   .brand img {
-    width: 280px;
+    width: 1400px;
   }
 
   .menu-toggle {
@@ -1829,7 +1842,7 @@ summary:focus-visible,
   }
 
   .footer-brand img {
-    width: 220px;
+    width: 1100px;
   }
 
   .footer-links {
@@ -1846,7 +1859,7 @@ summary:focus-visible,
   }
 
   .policy-header img {
-    width: 280px;
+    width: 1400px;
   }
 
   .policy-home-link {
@@ -1854,7 +1867,7 @@ summary:focus-visible,
   }
 
   .policy-footer-brand img {
-    width: 220px;
+    width: 1100px;
   }
 
   .policy-content {
