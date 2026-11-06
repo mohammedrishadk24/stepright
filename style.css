@@ -105,11 +105,11 @@ h3 {
 }
 
 .brand {
-  flex: 0 0 100%;
+  flex: 0 0 auto;
 }
 
 .brand img {
-  width: 1800px;
+  width: 240px;
   max-width: 100%;
   height: auto;
 }
@@ -971,7 +971,7 @@ summary:focus-visible,
 }
 
 .footer-brand img {
-  width: 1500px;
+  width: 220px;
   max-width: 100%;
   height: auto;
 }
@@ -1004,12 +1004,8 @@ summary:focus-visible,
   gap: 18px;
 }
 
-.policy-header-inner > a:first-child {
-  flex: 0 0 100%;
-}
-
 .policy-header img {
-  width: 1800px;
+  width: 240px;
   max-width: 100%;
   height: auto;
 }
@@ -1078,7 +1074,7 @@ summary:focus-visible,
 }
 
 .policy-footer-brand img {
-  width: 1500px;
+  width: 220px;
   max-width: 100%;
   height: auto;
 }
@@ -1094,7 +1090,7 @@ summary:focus-visible,
   }
 
   .brand img {
-    width: 1500px;
+    width: 220px;
   }
 
   .main-nav {
@@ -1187,7 +1183,7 @@ summary:focus-visible,
   }
 
   .brand img {
-    width: 1200px;
+    width: 200px;
   }
 
   .main-nav {
@@ -1472,7 +1468,7 @@ summary:focus-visible,
   }
 
   .brand img {
-    width: 1400px;
+    width: 200px;
   }
 
   .menu-toggle {
@@ -1842,7 +1838,7 @@ summary:focus-visible,
   }
 
   .footer-brand img {
-    width: 1100px;
+    width: 180px;
   }
 
   .footer-links {
@@ -1859,7 +1855,7 @@ summary:focus-visible,
   }
 
   .policy-header img {
-    width: 1400px;
+    width: 200px;
   }
 
   .policy-home-link {
@@ -1867,7 +1863,7 @@ summary:focus-visible,
   }
 
   .policy-footer-brand img {
-    width: 1100px;
+    width: 180px;
   }
 
   .policy-content {
