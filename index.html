@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f8f2">
-  <meta name="description" content="Practical career mentorship for graduates and early-career job seekers. Get a clearer plan for your job search with StepRight.">
+  <meta name="description" content="Career mentorship for graduates and early-career job seekers, with guidance on career direction, applications and interview preparation.">
   <title>StepRight | Your job search deserves a clearer plan</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,13 +23,13 @@
         <span class="menu-toggle-icon" aria-hidden="true"></span>
       </button>
       <nav class="main-nav" id="primary-nav" aria-label="Main navigation">
-        <a href="#programme">50-Day Plan</a>
-        <a href="#what-you-receive">What You Receive</a>
-        <a href="#who-its-for">Who It's For</a>
-        <a href="#commitment">Our Promise</a>
+        <a href="#plan">50-Day Plan</a>
+        <a href="#receive">What You Receive</a>
+        <a href="#fit">Who It's For</a>
+        <a href="#promise">Our Promise</a>
         <a href="#pricing">Pricing</a>
-        <a href="#faqs">FAQs</a>
-        <a href="#talk-to-us">Talk to Us</a>
+        <a href="#faq">FAQs</a>
+        <a class="nav-cta" href="#talk-to-us">Talk to Us</a>
       </nav>
     </div>
   </header>
@@ -38,34 +38,33 @@
     <section class="hero" id="top" aria-labelledby="hero-title">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Career mentorship for graduates &amp; early-career job seekers</p>
-          <h1 id="hero-title">Your job search deserves a <span>clearer plan.</span></h1>
-          <p class="hero-description">Not sure where to start, what to improve, or why your applications aren't getting replies? StepRight offers practical, one-to-one guidance to help you move forward with more direction and confidence.</p>
-          <a class="button button-primary hero-button" href="#programme">See the 50-day plan</a>
+          <p class="eyebrow">Career guidance for graduates and early-career job seekers</p>
+          <h1 id="hero-title">Your <span class="hero-green">job search</span> deserves a <span class="hero-highlight">clearer<svg aria-hidden="true" viewBox="0 0 200 12" preserveAspectRatio="none"><path d="M2 8 Q 27 0 52 6 T 102 6 T 152 6 T 198 5"></path></svg></span> <span class="hero-green">plan.</span></h1>
+          <p class="hero-description">Not sure which roles match your experience, how to present your skills, or why your applications are not receiving responses? StepRight provides career guidance to help you improve your applications and prepare for interviews.</p>
+          <a class="button button-primary hero-button" href="#plan">Explore the 50-day plan <span aria-hidden="true">→</span></a>
         </div>
         <div class="hero-aside" aria-label="A preview of your career plan">
           <div class="career-card">
             <div class="career-card-header">
               <h2>Your career plan</h2>
-              <span class="step-badge">STEP BY STEP</span>
+              <span class="step-badge">50 DAYS</span>
             </div>
             <ul class="career-list">
               <li>
                 <span class="career-icon" aria-hidden="true">✓</span>
-                <span><strong>Find your direction</strong><small>Understand your strengths and target roles.</small></span>
+                <span><strong>Identify suitable roles</strong><small>Explore roles that align with your experience and strengths.</small></span>
               </li>
               <li>
-                <span class="career-icon" aria-hidden="true">▤</span>
-                <span><strong>Improve how you apply</strong><small>Resume, LinkedIn and application materials.</small></span>
+                <span class="career-icon" aria-hidden="true">✓</span>
+                <span><strong>Improve your applications</strong><small>Receive feedback on your resume, LinkedIn profile and application approach.</small></span>
               </li>
               <li>
-                <span class="career-icon" aria-hidden="true">✦</span>
-                <span><strong>Practise with feedback</strong><small>Questions, interviews and next steps.</small></span>
+                <span class="career-icon" aria-hidden="true">✓</span>
+                <span><strong>Prepare for interviews</strong><small>Practise your responses and plan your next steps.</small></span>
               </li>
             </ul>
-            <p class="career-card-note">We'll work together to figure out what you need, one step at a time.</p>
+            <p class="career-card-note">Guidance is tailored to your experience and career goals.</p>
           </div>
-          <span class="progress-note">Small steps, real progress <span aria-hidden="true">✦</span></span>
         </div>
       </div>
     </section>
@@ -73,165 +72,190 @@
     <section class="section familiar-section" id="sound-familiar" aria-labelledby="familiar-title">
       <div class="container">
         <div class="section-heading">
-          <p class="section-kicker">Sound familiar?</p>
-          <h2 id="familiar-title">Finding a job can feel confusing.</h2>
-          <p>You've finished your studies or started applying. But it's hard to know what's working and what to do differently.</p>
+          <p class="section-kicker">Common job-search challenges</p>
+          <h2 id="familiar-title">It can be difficult to know what to do next.</h2>
+          <p>Graduates and early-career job seekers often need support with choosing suitable roles, preparing applications and getting ready for interviews.</p>
         </div>
         <div class="three-card-grid">
           <article class="simple-card">
             <span class="card-icon" aria-hidden="true">↗</span>
-            <h3>Applications, no replies</h3>
-            <p>You've applied to several jobs but aren't sure why you're not hearing back.</p>
+            <h3>Applications without a response</h3>
+            <p>You have applied for roles but are unsure whether your resume or application approach needs improvement.</p>
           </article>
           <article class="simple-card">
             <span class="card-icon" aria-hidden="true">▤</span>
-            <h3>Not sure what to improve</h3>
-            <p>Your resume, LinkedIn profile or career direction might need work, but where do you begin?</p>
+            <h3>Unclear next steps</h3>
+            <p>You want to improve your resume or LinkedIn profile, but are unsure where to begin.</p>
           </article>
           <article class="simple-card">
             <span class="card-icon" aria-hidden="true">◎</span>
-            <h3>Interviews feel stressful</h3>
-            <p>You want to prepare properly and practise your answers before meeting employers.</p>
+            <h3>Interview preparation</h3>
+            <p>You want to practise describing your experience and responding to common interview questions.</p>
           </article>
         </div>
-        <p class="bridge-note">You don't need another long list of tips. You need a plan you can actually follow — and honest feedback along the way.</p>
+        <p class="bridge-note">StepRight helps you address these challenges with a clear plan and feedback as you work through each stage.</p>
       </div>
     </section>
 
-    <section class="section programme-section" id="programme" aria-labelledby="programme-title">
+    <section class="section programme-section" id="plan" aria-labelledby="programme-title">
       <div class="container">
         <div class="section-heading">
           <p class="section-kicker">The programme</p>
-          <h2 id="programme-title">50 days. Five clear steps.</h2>
-          <p>We'll work on the parts of your job search that need attention most. The timeline is a guide, so it can be adjusted to your goals and progress.</p>
+          <h2 id="programme-title">A structured 50-day career plan.</h2>
+          <p>The programme covers five stages, from identifying suitable roles to preparing for interviews and planning your next steps. The sequence can be adjusted to reflect your priorities and progress.</p>
         </div>
         <ol class="timeline">
-          <li class="timeline-row">
-            <span class="phase-days">Days 1–7</span>
-            <div class="phase-description">
-              <h3>01. Get clear on your direction</h3>
-              <p>Talk through your background, identify suitable roles, and review your resume and LinkedIn profile.</p>
-            </div>
-            <p class="phase-outcome"><strong>Your first step</strong>A role shortlist, improvement priorities and a simple action plan.</p>
+          <li>
+            <details class="phase-card" open>
+              <summary>
+                <span class="phase-number">01</span>
+                <span class="phase-title"><small>Days 1–7</small>Review your background and goals</span>
+                <span class="phase-toggle" aria-hidden="true"></span>
+              </summary>
+              <div class="phase-content">
+                <p>Review your education, experience, strengths and career interests. Identify relevant roles and assess your current resume and LinkedIn profile.</p>
+                <p class="phase-outcome"><strong>By the end</strong>A shortlist of roles to explore and priorities for improving your application materials.</p>
+              </div>
+            </details>
           </li>
-          <li class="timeline-row">
-            <span class="phase-days">Days 8–20</span>
-            <div class="phase-description">
-              <h3>02. Build your job-search toolkit</h3>
-              <p>Improve how you present your experience, set up a tracker and identify useful learning resources.</p>
-            </div>
-            <p class="phase-outcome"><strong>Your next step</strong>A stronger profile and a practical application routine.</p>
+          <li>
+            <details class="phase-card">
+              <summary>
+                <span class="phase-number">02</span>
+                <span class="phase-title"><small>Days 8–20</small>Prepare your application materials</span>
+                <span class="phase-toggle" aria-hidden="true"></span>
+              </summary>
+              <div class="phase-content">
+                <p>Improve how you present your skills and experience. Set up an application tracker and identify relevant learning resources where needed.</p>
+                <p class="phase-outcome"><strong>By the end</strong>Updated application materials and a clear system for organising your job search.</p>
+              </div>
+            </details>
           </li>
-          <li class="timeline-row">
-            <span class="phase-days">Days 21–35</span>
-            <div class="phase-description">
-              <h3>03. Apply with more purpose</h3>
-              <p>Find relevant openings, tailor selected applications and learn how to approach recruiters professionally.</p>
-            </div>
-            <p class="phase-outcome"><strong>Your next step</strong>Application and outreach templates you can use independently.</p>
+          <li>
+            <details class="phase-card">
+              <summary>
+                <span class="phase-number">03</span>
+                <span class="phase-title"><small>Days 21–35</small>Plan and make targeted applications</span>
+                <span class="phase-toggle" aria-hidden="true"></span>
+              </summary>
+              <div class="phase-content">
+                <p>Identify relevant vacancies, tailor applications and practise writing professional messages to recruiters and employers.</p>
+                <p class="phase-outcome"><strong>By the end</strong>Templates you can adapt for applications and professional outreach.</p>
+              </div>
+            </details>
           </li>
-          <li class="timeline-row">
-            <span class="phase-days">Days 36–45</span>
-            <div class="phase-description">
-              <h3>04. Prepare for interviews</h3>
-              <p>Practise common questions, explain your experience clearly and receive feedback on your answers.</p>
-            </div>
-            <p class="phase-outcome"><strong>Your next step</strong>An interview-preparation checklist and feedback.</p>
+          <li>
+            <details class="phase-card">
+              <summary>
+                <span class="phase-number">04</span>
+                <span class="phase-title"><small>Days 36–45</small>Prepare for interviews</span>
+                <span class="phase-toggle" aria-hidden="true"></span>
+              </summary>
+              <div class="phase-content">
+                <p>Prepare for common interview questions, practise describing your experience and receive feedback on your answers.</p>
+                <p class="phase-outcome"><strong>By the end</strong>A structured approach to answering interview questions and priorities for further practice.</p>
+              </div>
+            </details>
           </li>
-          <li class="timeline-row">
-            <span class="phase-days">Days 46–50</span>
-            <div class="phase-description">
-              <h3>05. Review and move forward</h3>
-              <p>Look at your progress, understand what's still challenging and plan your next month of applications.</p>
-            </div>
-            <p class="phase-outcome"><strong>Your next step</strong>A career progress summary and your next steps.</p>
+          <li>
+            <details class="phase-card">
+              <summary>
+                <span class="phase-number">05</span>
+                <span class="phase-title"><small>Days 46–50</small>Review and move forward</span>
+                <span class="phase-toggle" aria-hidden="true"></span>
+              </summary>
+              <div class="phase-content">
+                <p>Review your progress, address any remaining challenges and plan how to continue your job search after the programme.</p>
+                <p class="phase-outcome"><strong>By the end</strong>A progress summary and priorities for the month ahead.</p>
+              </div>
+            </details>
           </li>
         </ol>
-        <p class="section-note"><strong>Already ready to apply?</strong> You won't have to wait until Day 21. We can adapt the order to what you need most.</p>
+        <p class="section-note"><strong>Already applying?</strong> You can work on applications before Day 21. The stages can be reordered to address your immediate priorities.</p>
       </div>
     </section>
 
-    <section class="section receive-section" id="what-you-receive" aria-labelledby="receive-title">
+    <section class="section receive-section" id="receive" aria-labelledby="receive-title">
       <div class="container">
         <div class="section-heading">
           <p class="section-kicker">What you receive</p>
-          <h2 id="receive-title">Practical help, not just advice.</h2>
-          <p>You'll get personal feedback, useful tools and guidance that helps you do the work yourself.</p>
+          <h2 id="receive-title">What the mentorship includes</h2>
+          <p>Receive guidance on the areas of your job search that are most relevant to your goals.</p>
         </div>
         <div class="receive-layout">
           <ul class="receive-list">
-            <li>One-to-one career guidance and a clear plan</li>
-            <li>Resume feedback to help you present your experience</li>
-            <li>LinkedIn profile feedback and practical suggestions</li>
-            <li>An application tracker and reusable templates</li>
-            <li>Feedback on selected applications and messages</li>
-            <li>Interview preparation and practical practice</li>
+            <li>Career guidance and a plan based on your goals</li>
+            <li>Resume feedback and guidance on presenting your experience</li>
+            <li>LinkedIn profile feedback and recommendations for improvement</li>
+            <li>An application tracker and templates for applications and professional outreach</li>
+            <li>Feedback on selected applications and employer messages</li>
+            <li>Interview preparation, practice questions and feedback</li>
           </ul>
           <aside class="receive-callout">
-            <h3>You'll do the work. We'll help you do it better.</h3>
-            <p>The goal isn't to depend on a mentor forever. It's to develop the confidence and habits to continue your job search on your own.</p>
-            <p class="callout-note">We'll confirm the session schedule, review limits and any ongoing support with you before you enrol.</p>
+            <h3>Guidance tailored to your career goals</h3>
+            <p>Your mentor will provide feedback on your applications, career materials and interview preparation. You remain responsible for submitting applications and making your career decisions.</p>
+            <p class="callout-note">Before you enrol, we will confirm the schedule, support arrangements and programme inclusions.</p>
           </aside>
         </div>
       </div>
     </section>
 
-    <section class="section fit-section" id="who-its-for" aria-labelledby="fit-title">
+    <section class="section fit-section" id="fit" aria-labelledby="fit-title">
       <div class="container">
         <div class="section-heading">
           <p class="section-kicker">A good match matters</p>
-          <h2 id="fit-title">Is StepRight right for you?</h2>
-          <p>Check whether the programme matches your goals and availability.</p>
+          <h2 id="fit-title">Is this programme a good fit for you?</h2>
+          <p>The mentorship is best suited to people who are ready to take an active role in their job search.</p>
         </div>
         <div class="fit-grid">
           <article class="fit-card fit-positive">
-            <h3>A good fit if you...</h3>
+            <h3>StepRight may be suitable if you...</h3>
             <ul>
-              <li>Are a recent graduate or early-career job seeker looking for structured direction.</li>
-              <li>Are applying actively without responses and want honest feedback.</li>
-              <li>Can make time for your job search and preparation.</li>
-              <li>Are ready to put in the effort and want guidance, not someone to do it for you.</li>
+              <li>Are a recent graduate or early-career job seeker seeking help to identify suitable roles.</li>
+              <li>Would value feedback on your resume, LinkedIn profile or application approach.</li>
+              <li>Can make time for applications, preparation and agreed follow-up.</li>
+              <li>Are prepared to manage your own job search with guidance and feedback.</li>
             </ul>
           </article>
           <article class="fit-card fit-caution">
-            <h3>Probably not the right fit if you...</h3>
+            <h3>StepRight may not be suitable if you...</h3>
             <ul>
-              <li>Expect someone to find you a job without your effort.</li>
-              <li>Expect guaranteed placement, a referral or recruitment services.</li>
-              <li>Cannot commit time to applications and preparation.</li>
+              <li>Need someone to submit job applications on your behalf.</li>
+              <li>Are seeking a guaranteed job, interview, referral or placement.</li>
+              <li>Cannot make time for your own applications and preparation.</li>
             </ul>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section commitment-section" id="commitment" aria-labelledby="commitment-title">
+    <section class="section commitment-section" id="promise" aria-labelledby="commitment-title">
       <div class="container">
         <div class="section-heading section-heading-centered">
           <p class="section-kicker">Our approach</p>
-          <h2 id="commitment-title">Our Commitment to Honest Mentorship</h2>
-          <p>Four things you can always count on.</p>
+          <h2 id="commitment-title">A professional and transparent service</h2>
+          <p>We aim to provide clear advice, constructive feedback and careful handling of your information.</p>
         </div>
         <div class="principle-grid">
           <article class="principle-card">
             <span class="principle-icon" aria-hidden="true">✓</span>
-            <h3>Truth on your resume</h3>
-            <p>We help you present your genuine experience, projects and skills. No made-up credentials.</p>
+            <h3>Accurate representation</h3>
+            <p>We help you present your experience, projects and skills accurately. We will not misrepresent your qualifications or experience.</p>
           </article>
           <article class="principle-card">
             <span class="principle-icon" aria-hidden="true">↗</span>
-            <h3>No hidden deals</h3>
-            <p>No surprise placement charges or deductions from your future salary.</p>
+            <h3>Transparent fees</h3>
+            <p>We confirm the programme fee before enrolment. There are no placement fees or deductions from your future salary.</p>
           </article>
           <article class="principle-card">
             <span class="principle-icon" aria-hidden="true">✦</span>
-            <h3>Your privacy matters</h3>
-            <p>We use your details for mentorship, and do not sell your personal information.</p>
+            <h3>Respect for your privacy</h3>
+            <p>We use your information to respond to your enquiry and provide mentorship. We do not sell personal information.</p>
           </article>
           <article class="principle-card">
             <span class="principle-icon" aria-hidden="true">♡</span>
             <h3>Honest feedback</h3>
-            <p>We'll tell you what we see, including what needs improvement and help you work on it.</p>
+            <p>We provide constructive feedback on your career materials, applications and interview preparation.</p>
           </article>
         </div>
       </div>
@@ -242,70 +266,73 @@
         <div class="pricing-layout">
           <div class="pricing-copy">
             <p class="section-kicker">Pricing</p>
-            <h2 id="pricing-title">A small start, with personal attention.</h2>
-            <p>For our first batch, we're working with up to five learners so each person can receive focused feedback.</p>
+            <h2 id="pricing-title">50-day career mentorship</h2>
+            <p>This one-to-one programme covers career direction, application materials, job-search planning and interview preparation.</p>
           </div>
           <div class="price-card">
             <div class="price-card-heading">
               <div>
-                <p class="mini-label">StepRight 50-day mentorship</p>
-                <p class="price">₹999 <span>/ total</span></p>
+                <p class="mini-label">Full programme fee</p>
+                <p class="price">₹999 <span>one-time fee for the full programme</span></p>
               </div>
-              <span class="price-badge">Pilot Batch 1</span>
             </div>
-            <p class="price-description">The full 50-day programme, with the guidance, feedback and tools discussed before you enrol.</p>
-            <a class="button button-primary button-full" href="https://wa.me/919483835482?text=Hello%2C%20I%27d%20like%20to%20ask%20about%20joining%20StepRight." target="_blank" rel="noopener noreferrer">Ask about joining <span aria-hidden="true">→</span></a>
-            <p class="price-note">Talk to us before you pay. We'll explain what's included, answer your questions and confirm the applicable terms.</p>
+            <p class="price-description">The fee covers the one-to-one mentorship and support described above. We will confirm the schedule and arrangements before enrolment.</p>
+            <a class="button button-primary button-full" href="#talk-to-us">Ask about joining <span aria-hidden="true">→</span></a>
+            <p class="price-note">Payment is not collected on this website. We will confirm the programme details and terms before you make a payment.</p>
           </div>
         </div>
         <ol class="join-grid" aria-label="How to join">
           <li class="join-card">
             <span class="join-number">1</span>
-            <div><h3>Say hello</h3><p>Send us a WhatsApp message about your background and the roles you're considering.</p></div>
+            <div><h3>Send an enquiry</h3><p>Tell us your name and the career path you are interested in.</p></div>
           </li>
           <li class="join-card">
             <span class="join-number">2</span>
-            <div><h3>Have a free chat</h3><p>We'll discuss your goals and explain exactly how the mentorship works.</p></div>
+            <div><h3>Discuss your goals</h3><p>We will learn about your goals and explain how the mentorship works.</p></div>
           </li>
           <li class="join-card">
             <span class="join-number">3</span>
-            <div><h3>Enrol and begin</h3><p>If it feels like a good fit, confirm the terms, then decide whether to enrol.</p></div>
+            <div><h3>Review the details</h3><p>We will confirm the schedule, support arrangements and terms. You can then decide whether to enrol.</p></div>
           </li>
         </ol>
       </div>
     </section>
 
-    <section class="section faq-section" id="faqs" aria-labelledby="faq-title">
+    <section class="section faq-section" id="faq" aria-labelledby="faq-title">
       <div class="container faq-layout">
         <div class="section-heading">
           <p class="section-kicker">A few things you may be wondering</p>
-          <h2 id="faq-title">Questions? We've got answers.</h2>
-          <p>If there's something else you'd like to know, you can always ask us directly before joining.</p>
+          <h2 id="faq-title">Common questions</h2>
+          <p>Contact us if you have other questions before making a decision.</p>
         </div>
         <div class="faq-list">
           <details>
             <summary>Will StepRight find me a job?</summary>
-            <p>No. StepRight is a mentorship service, not a recruitment agency. We help you strengthen your approach, but interviews and hiring decisions are made by employers.</p>
+            <p>No. StepRight provides career mentorship, not recruitment services. You submit your own applications, and employers make all interview and hiring decisions.</p>
           </details>
           <details>
             <summary>What if I already have a resume?</summary>
-            <p>That's useful. We'll review what you have and focus on the changes that matter for your target roles. You won't have to start from scratch.</p>
+            <p>Yes. We can review your resume and recommend changes for the roles you are targeting.</p>
           </details>
           <details>
-            <summary>Do I need to buy courses or extra services?</summary>
-            <p>No paid courses are required. If we identify a skill gap, we'll suggest suitable free learning resources first.</p>
-          </details>
-          <details>
-            <summary>When can I message my mentor?</summary>
-            <p>We'll discuss the available support and response times with you before you decide to enrol.</p>
+            <summary>Are any additional services required?</summary>
+            <p>No. The programme fee covers the support outlined above. We will discuss any additional support with you before enrolment.</p>
           </details>
           <details>
             <summary>What happens after the 50 days?</summary>
-            <p>We'll review your progress and discuss practical next steps. Any ongoing support or follow-up will be explained before you enrol.</p>
+            <p>We will review your progress and agree on next steps. Any support beyond the programme will be explained before you enrol.</p>
+          </details>
+          <details>
+            <summary>How are the sessions and support arranged?</summary>
+            <p>Before enrolment, we will confirm the schedule, communication method, scope of feedback and response times.</p>
+          </details>
+          <details>
+            <summary>Is the mentorship one-to-one?</summary>
+            <p>Yes. The mentorship is provided one-to-one. Before you enrol, we will confirm the schedule, communication method, feedback scope and response times.</p>
           </details>
           <details>
             <summary>What if I change my mind?</summary>
-            <p>We haven't finalised a refund policy. Please ask us about the applicable refund and cancellation terms before making a payment.</p>
+            <p>Please confirm the cancellation and refund terms before making a payment. We will explain the applicable terms before enrolment.</p>
           </details>
         </div>
       </div>
@@ -313,11 +340,38 @@
 
     <section class="talk-section" id="talk-to-us" aria-labelledby="talk-title">
       <div class="container talk-card">
-        <h2 id="talk-title">Ready to take the first step?</h2>
-        <p>Share a little about your background and career goals. We'll discuss whether StepRight is right for you.</p>
-        <a class="button button-light" href="https://wa.me/919483835482?text=Hello%2C%20I%27d%20like%20to%20learn%20about%20StepRight." target="_blank" rel="noopener noreferrer">Talk to us on WhatsApp <span aria-hidden="true">↗</span></a>
-        <p class="talk-note">Free initial conversation. No payment required to enquire.</p>
-        <p class="talk-note">Prefer email? <a href="mailto:hello@stepright.live">hello@stepright.live</a></p>
+        <h2 id="talk-title">Enquire about StepRight</h2>
+        <p>Tell us about your education and the career path you are considering. We will answer your questions and explain the programme so you can decide whether it meets your needs.</p>
+        <form class="enquiry-form" id="enquiry-form">
+          <div class="enquiry-fields">
+            <label>
+              Your name
+              <input name="name" autocomplete="name" required>
+            </label>
+            <label>
+              Your education <span>(optional)</span>
+              <input name="education">
+            </label>
+            <label>
+              Which career path are you interested in?
+              <input name="interest" required>
+            </label>
+            <label>
+              Questions or additional details <span>(optional)</span>
+              <textarea name="message" rows="3"></textarea>
+            </label>
+          </div>
+          <div class="contact-actions">
+            <button class="button contact-action-whatsapp" type="submit" name="contact-method" value="whatsapp">
+              Send your enquiry on WhatsApp <span aria-hidden="true">↗</span>
+            </button>
+            <p class="email-alternative">Prefer email?
+              <button class="contact-action-email" type="submit" name="contact-method" value="email">Email us at hello@stepright.live</button>
+            </p>
+          </div>
+          <p class="enquiry-privacy">Your details will be added to a draft message. They are shared with StepRight only when you choose to send it.</p>
+        </form>
+        <p class="talk-note">The initial conversation is free. There is no obligation to enrol or pay to ask questions.</p>
       </div>
     </section>
   </main>
@@ -338,6 +392,7 @@
   <script>
     const menuToggle = document.querySelector(".menu-toggle");
     const primaryNav = document.querySelector("#primary-nav");
+    const enquiryForm = document.querySelector("#enquiry-form");
 
     menuToggle.addEventListener("click", () => {
       const isExpanded = menuToggle.getAttribute("aria-expanded") === "true";
@@ -350,6 +405,27 @@
         menuToggle.setAttribute("aria-expanded", "false");
         primaryNav.classList.remove("is-open");
       }
+    });
+
+    enquiryForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const formData = new FormData(enquiryForm);
+      const message = [
+        "Hello, I am enquiring about the StepRight career mentorship programme.",
+        `Name: ${formData.get("name")}`,
+        `Education: ${formData.get("education") || "Not provided"}`,
+        `Career path of interest: ${formData.get("interest")}`,
+        `Questions or additional details: ${formData.get("message") || "None"}`
+      ].join("\n");
+
+      const method = event.submitter?.value || "email";
+      if (method === "email") {
+        const subject = "Enquiry about StepRight career mentorship";
+        window.location.href = `mailto:hello@stepright.live?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+        return;
+      }
+
+      window.location.href = `https://wa.me/919483835482?text=${encodeURIComponent(message)}`;
     });
   </script>
 </body>
