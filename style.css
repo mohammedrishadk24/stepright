@@ -1987,22 +1987,6 @@ h3 {
   color: var(--green);
 }
 
-.hero-highlight svg {
-  position: absolute;
-  bottom: -8px;
-  left: 0;
-  width: 100%;
-  height: 12px;
-  overflow: visible;
-}
-
-.hero-highlight path {
-  fill: none;
-  stroke: var(--gold);
-  stroke-linecap: round;
-  stroke-width: 4px;
-}
-
 .hero-description {
   max-width: 540px;
   margin-bottom: 28px;
